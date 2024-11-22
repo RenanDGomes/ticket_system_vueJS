@@ -5,7 +5,7 @@ import TicketMessages from "@/components/TicketMessages.vue";
 import ReportsView from "@/components/ReportView.vue";
 
 const routes = [
-  { path: "/tickets", component: TicketList },
+  { path: "/", alias: "/tickets", component: TicketList },
   { path: "/tickets/new", component: TicketForm },
   { path: "/tickets/:ticketId/messages", component: TicketMessages },
   { path: "/reports", component: ReportsView },

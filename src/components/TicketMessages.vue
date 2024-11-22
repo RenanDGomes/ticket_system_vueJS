@@ -11,6 +11,7 @@
         <textarea v-model="newMessage.content" placeholder="Escreva uma mensagem"></textarea>
         <input v-model="newMessage.sender" placeholder="Seu nome" />
         <button type="submit">Enviar</button>
+        <button @click="goToTickets">Tickets</button>
       </form>
     </div>
   </template>
@@ -50,10 +51,12 @@
           console.error("Erro ao enviar mensagem:", error);
         }
       },
+      goToTickets() {
+        this.$router.push("/tickets")
+    },
     },
     mounted() {
       this.fetchMessages();
     },
   };
   </script>
-

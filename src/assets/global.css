@@ -1,3 +1,15 @@
+/* Importação da fonte Montserrat */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* Aplicação global da fonte */
+body {
+  font-family: 'Montserrat', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f2f2f2;
+  color: #333;
+}
+
 .container {
   max-width: 800px;
   margin: 0 auto;
@@ -10,6 +22,7 @@
 h2 {
   text-align: center;
   color: #333;
+  font-weight: 700;
 }
 
 form {
@@ -29,6 +42,7 @@ textarea {
   padding: 10px;
   border: 1px solid #ccc;
   border-radius: 4px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 textarea {
@@ -38,17 +52,18 @@ textarea {
 
 button {
   padding: 10px 15px;
-  background-color: #007bff;
+  background-color: #8c53fd;
   color: white;
   border: none;
   border-radius: 4px;
   cursor: pointer;
   transition: background-color 0.3s;
   margin: 5px;
+  font-family: 'Montserrat', sans-serif;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #4f23a8;
 }
 
 button.export-btn {

@@ -71,12 +71,17 @@ export default {
 
 <style scoped>
 .reports {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: 50px;
-  border: 2px solid #ddd;
+  max-width: 500px;
+  padding: 100px;
+  border: 1px solid #a454fc;
   border-radius: 8px;
   background-color: #f9f9f9;
+
+  /* Flexbox para centralização */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
 
 h2 {
@@ -108,7 +113,7 @@ input {
 
 .btn {
   padding: 10px 15px;
-  background-color: #007bff;
+  background-color: #a454fc;
   color: white;
   border: none;
   border-radius: 4px;
@@ -116,11 +121,10 @@ input {
   transition: background-color 0.3s;
   text-align: center;
   display: inline-block;
-
 }
 
 .btn:hover {
-  background-color: #0056b3;
+  background-color: #8c53fd;
 }
 
 .export-btn {
