@@ -1,24 +1,5 @@
 # ticket_system_front
 
-## Project setup
-```
-npm install
-```
+## Frontend do sistema de gerenciamento de tickets
 
-### Compiles and hot-reloads for development
-```
-npm run serve
-```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+Desenvolvido com **Vue.js**, este projeto consome a API criada com **Ruby on Rails** no repositório [ticket_system](https://github.com/RenanDGomes/ticket_system).
